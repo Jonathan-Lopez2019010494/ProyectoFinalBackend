@@ -1,0 +1,51 @@
+<html xmlns:th="http://www.thymeleaf.rog">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e731fb8cd4.js" crossorigin="anonymous"></script>
+    <title>Proyecto Final</title>
+</head>
+<body style="background-image: url(https://wallpapercave.com/wp/wp6913584.png); background-attachment: fixed; background-repeat: no-repeat; background-size: 100%;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Programación III</a>
+        </div>
+    </nav><br><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h5 class="display-4">Proyectos Programación III</h5><br><br>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="https://fondosmil.com/fondo/35751.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="/comida" th:href="@{'/comida'}" class="text-decoration-none text-dark"><h5 class="card-title">Proyecto Comida</h5></a>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis maiores placeat repellendus, eos praesentium nihil. Excepturi delectus blanditiis quis accusantium et corrupti iste id, qui aut sapiente optio atque amet?</p>
+                        <p class="card-text"><a href="/comida" th:href="@{'/comida'}" class="text-decoration-none text-dark"><small class="text-muted">Abrir proyecto cocina</small></a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://www.anoregsp.org.br/__Documentos/Upload_Conteudo/destaques/26143/destaque.jpg" alt="Card image cap" style="height: 223px;">
+                    <div class="card-body">
+                        <a href="/contrato" th:href="@{'/contrato'}" class="text-decoration-none text-dark"><h5 class="card-title">Proyecto Contratos</h5></a>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos veniam accusamus excepturi ullam quam beatae minima quo fuga voluptatibus architecto ex ut ipsa asperiores illum eum, repellat repudiandae tempora? Ad?</p>
+                        <p class="card-text"><a href="/contrato" th:href="@{'/contrato'}" class="text-decoration-none text-dark"><small class="text-muted">Abrir proyecto contratos</small></a></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="https://images2.alphacoders.com/210/210480.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <a href="/moneda" th:href="@{'/moneda'}" class="text-decoration-none text-dark"><h5 class="card-title">Proyecto Monedas</h5></a>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dicta alias adipisci facilis voluptas, consectetur nihil, quis quia, quidem voluptatibus quae ea et! Quae explicabo ad, veritatis doloribus neque similique!</p>
+                        <p class="card-text"><a href="/moneda" th:href="@{'/moneda'}" class="text-decoration-none text-dark"><small class="text-muted">Abrir proyecto monedas</small></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
